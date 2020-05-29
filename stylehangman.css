@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Indie Flower', cursive;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background-image: url(https://marketplace.canva.com/EAD297uecnM/2/0/1600w/canva-rainbow-gradient-pink-orange-and-blue-zoom-virtual-background-VwJMC37j5jQ.jpg); 
+
+}
+
+.btn-and-submit{
+	margin-top: 50px;
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	transform: translate(-50%,-50%);
+	display: flex;
+
+}
+.user-guess{
+	width: 40px;
+	font-size: 30px;
+	height: 40px;
+	border-radius: 3px;
+
+}
+.submit-btn{
+	display: flex;
+	height: 31px;
+	width: 60px;
+	background: #C9E7F8;
+	cursor: pointer;
+	margin-top: 2px;
+	margin-left: 3px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 5px;  
+	border-radius: 2px;
+
+	
+}
+
+.submit-btn:hover{
+	background: #01DBFB;
+	color: #F9F2D4;
+}
+.main-word{
+	width: 600px;
+	height: 50px;
+	margin-bottom: 70px;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 6px;
+
+}
+
+.wrapper{
+	z-index: 2;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.hangman-pic{
+	position: absolute;
+	right: 60px;
+	top: 10%;
+	
+	
+}
+.picture{
+	width: 200px;
+	height: 300px;
+}
+.wrong-letters{
+	position: absolute;
+	width: 160px;
+	height: 50px;
+	right: 60px;
+	top: 70%; 
+	text-align: center;
+	font-size: 30px;
+}
+.about-wrong{
+	position: absolute;
+	right: 80px;
+	top: 60%; 
+	font-size: 30px;
+}
+.game-start{
+
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(startbackground.jpg) no-repeat;
+	background-size: cover;
+	z-index: 5;
+}
+.game-start .start-btn{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: red;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	z-index: 6;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+.game-start .start-btn:hover{
+	background: #C20202;
+	color: #fff;
+}
+.title{
+	position: absolute;
+	font-size: 100px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	letter-spacing: 6px;
+
+}
